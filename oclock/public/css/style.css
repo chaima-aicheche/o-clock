@@ -1,0 +1,60 @@
+body{
+    background-color: var(--Background-);
+    margin: 0;
+    
+}
+
+main{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.button {
+    background-color: var(--Color2-);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: var(--Color1-);
+    color: var(--White-);
+    cursor: pointer;
+}
+
+
+:root {
+
+    --Transparent-: rgba(255, 255, 255, 0);
+    --LightShadow-: rgba(0, 0, 0, 0.253);
+    --Shadow-: rgba(0, 0, 0, 0.39);
+    --DarkShadow-: rgba(0, 0, 0, 0.466);
+    --WhiteShadow-: #ffffffa4;
+    --White-: #FFFFFF;
+    --Black-: #000000;
+    --DarkGrey-: #202020;
+    --Grey-: #757575;
+    --Grey2-: #9c9c9cf3;
+    --Grey3-: #fffffff3;
+
+    background-color: #ffb6c1;
+    --Button-: #0022ff;
+    --Color1-: #E9967A;
+    --Color2-: #FFA07A;
+    --Color3-: #ea4c89;
+    --Color4-: #d8d7d7;
+    --Error-: rgb(187, 8, 8);
+    --Success-: #65F695;
+
+}
